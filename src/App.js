@@ -93,7 +93,7 @@ function App() {
     <>
       <main className="super-container">
         <Header
-          usuario="Israel F."
+          usuario="TODO - TASK LIST"
           numero={todos.filter((todo) => !todo.check).length}
           total={totalTodos}
           setOpenModal={setOpenModal}
