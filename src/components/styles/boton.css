@@ -1,0 +1,20 @@
+/*BOTON + Component*/
+.add-todo {
+  width: 60px;
+  height: 60px;
+  align-self: center;
+  background-color: black;
+  color: #dde6ed;
+  position: absolute;
+  top: 80px;
+  right: 15px;
+  align-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.add-todo p {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bolder;
+}

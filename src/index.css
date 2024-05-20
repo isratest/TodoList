@@ -1,0 +1,236 @@
+/*GLOBALES*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  background-color: #dde6ed;
+}
+
+.super-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 4px;
+}
+@media (min-width: 900px) {
+  .super-container {
+    margin: 0 auto;
+    width: 900px;
+  }
+}
+/*GLOBALES*/
+
+/* HEADER */
+.top-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-container {
+  display: block;
+  padding: 30px 10px;
+}
+
+.header--title {
+  font-size: 2rem;
+  font-family: "Press Start 2P", system-ui;
+}
+
+.pending-container {
+  background-color: #526d82;
+  border-radius: 10px;
+  margin: 1rem 0;
+  width: 20rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.header--pending {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #dde6ed;
+}
+
+/*BOTON + Component*/
+.add-todo {
+  width: 60px;
+  height: 60px;
+  align-self: center;
+  background-color: black;
+  color: #dde6ed;
+  align-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  margin-right: 15px;
+  z-index: 1;
+}
+
+.add-todo:hover {
+  border-radius: 50px;
+  transform: rotate(224deg);
+  background-color: #48b5fd;
+}
+
+.add-todo p {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bolder;
+  transition: 0.3s ease;
+}
+
+.add-todo p:hover {
+  transform: rotate(224deg);
+  color: #292252;
+}
+
+/*SEARCH*/
+.find-container {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  padding: 3px 3px;
+  position: absolute;
+  top: 90px;
+  margin-left: 1rem;
+}
+
+.find {
+  align-self: center;
+  text-align: center;
+  height: 25px;
+  border-radius: 5px;
+}
+
+/*CONTAINER*/
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #27374d;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px 5px;
+  height: auto;
+  min-height: 100%;
+}
+
+/*TASK*/
+
+.main-todo {
+  display: flex;
+  align-items: center;
+  background-color: #9db2bf;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  width: 98%;
+}
+
+.check-todo {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  background-color: #7a7a7a;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.todo-container--date {
+  font-size: 2rem;
+  text-align: start;
+  margin: 4px;
+  align-items: center;
+  text-align: center;
+}
+
+.todo-container--date p:nth-child(1) {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: #dde6ed;
+}
+
+.todo-container--date p:nth-child(2) {
+  font-size: 0.8rem;
+  color: #27374d;
+  font-weight: bolder;
+}
+
+.description-todo {
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #27374d;
+  border-left: 1px solid #27374d;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  padding: 0.1rem;
+}
+
+.description-text-container {
+  width: 100%;
+  height: 100%;
+  background-color: #dde6ed;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.description-text-container p {
+  font-size: 1.6rem;
+  transition: 0.7s ease;
+}
+
+.description-text-check p {
+  font-size: 1.6rem;
+  text-decoration: line-through;
+}
+
+.status-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4px 4px;
+}
+
+.delete {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 5px;
+  align-content: center;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+}
+
+.delete p {
+  color: #dde6ed;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.check {
+  width: 30px;
+  height: 30px;
+  border: 0.6rem solid #292252;
+  background-color: #dde6ed;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.check:hover {
+  box-shadow: 0px 0px 3px 2px #01df70;
+}
+
+.check-checking {
+  width: 30px;
+  height: 30px;
+  border: 0.6rem solid #292252;
+  background-color: #01df70;
+  border-radius: 5px;
+  cursor: pointer;
+}

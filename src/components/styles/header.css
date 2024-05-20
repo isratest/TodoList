@@ -1,0 +1,27 @@
+/* HEADER */
+.header-container {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header--title {
+  font-size: 3rem;
+  font-family: "Press Start 2P", system-ui;
+  margin-bottom: 0.8rem;
+}
+
+.pending-container {
+  background-color: #526d82;
+  max-width: 15rem;
+  border-radius: 10px;
+  padding: 0.4rem 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.header--pending {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #dde6ed;
+}

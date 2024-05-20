@@ -1,0 +1,87 @@
+.main-todo {
+  display: flex;
+  align-items: center;
+  background-color: #9db2bf;
+  width: 99%;
+  height: auto;
+  min-height: 90px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin-bottom: 1rem;
+}
+
+.todo-container--date {
+  font-size: 2rem;
+  text-align: start;
+  border-right: 1px solid #292252;
+  padding-right: 2rem;
+}
+.todo-container--date p:nth-child(1) {
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.todo-container--date p:nth-child(2) {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: #dde6ed;
+}
+
+.todo-container--date p:nth-child(3) {
+  font-size: 1.6rem;
+  color: #27374d;
+  font-weight: bolder;
+}
+
+.description-todo {
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #27374d;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.description-text-container {
+  width: 100%;
+  height: 100%;
+  background-color: #dde6ed;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 0 10px;
+}
+
+.description-text-container p {
+  font-size: 1.6rem;
+}
+
+.status-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.delete {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 5px;
+  align-content: center;
+  margin-bottom: 0.8rem;
+}
+
+.delete p {
+  color: #dde6ed;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.check {
+  width: 30px;
+  height: 30px;
+  border: 0.6rem solid #292252;
+  background-color: #dde6ed;
+  border-radius: 5px;
+}

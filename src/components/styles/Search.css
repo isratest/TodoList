@@ -1,0 +1,18 @@
+.find-container {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  padding: 3px 3px;
+  width: 80%;
+  position: absolute;
+  top: 90px;
+}
+
+.find {
+  align-self: center;
+  text-align: center;
+  width: 50%;
+  height: 25px;
+  border-radius: 5px;
+}
